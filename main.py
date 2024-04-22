@@ -1,5 +1,6 @@
 import torch
-from ResNet import ResNet
+from keras.layers import Normalization
+from resnet import ResNet
 def load_model_and_predict(input_data):
     # Initialize the model
     model = ResNet()  # Replace with your actual model class and its required arguments if any
